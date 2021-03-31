@@ -5,4 +5,6 @@
 由low pass filter 輸出的電壓，要給picoscope測量，還要接到pin D12，當作AnalogIn再把傳進來的電壓資料給FFT.py來跑。
 先將程式灌進去板子上，先用UP跟DOWN調整頻率，在輸入"sudo python3 FFT.py"，才能按下CONFIRM。
 
-![image](https://user-images.githubusercontent.com/72737928/113104942-a722df80-9233-11eb-91ac-30462cc00446.png)
+以60 Hz 為例子:
+從picoscope測量到的頻率約為61.43Hz，FFT出來的在60Hz也有明顯凸起。
+![image](https://user-images.githubusercontent.com/72737928/113105355-1567a200-9234-11eb-8fa3-76a9eb671a19.png)
